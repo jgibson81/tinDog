@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserret", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 2;
+  font-weight: bold;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  margin: 0%;
+  display: inline-block;
+}
+
+.CTA {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 20px;  
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.meet {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  width: auto;
+  margin: 30px auto 10px auto;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light", sans-serif;
+  margin-right: 60px;
+}
+
+.download-button {
+  margin: 0 3% 0 0;
+}
+
+.phone {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.easy,.elite,.guaranteed {
+  width: 100%;
+  height: 80%;
+}
+
+.circle,.tee,.clientele {
+  padding-top: 20px;
+}
+
+.fa-bullseye,.fa-check-circle, .fa-heart {
+  color: #ef8172;
+}
+.fa-bullseye:hover,.fa-heart:hover,.fa-check-circle:hover {
+  color: #ff4c68;
+}
+.ease,.ec,.work{
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.use,.love,.dogs {
+  color: #8f8f8f;
+}
+
+#testimonials,#press {
+  background-color: #ef8172;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.test,.testimonial-image {
+  border-radius: 50%;
+  margin: 20px;
+  width: 20%;
+}
+.tech {
+  margin: 20px 30px;
+  width: 15%;
+}
+.carousel-item {
+  padding: 7% 25%;
+}
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+#features {
+  padding: 5% 8%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 1028px) {
+  .meet {
+    text-align: center;
+  }
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.find {
+  color: #fff;
+  padding: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'montserrat-black',sans-serif;
+}
+#footer {
+  padding: 7% 10%;
+}
+.socialcons {
+  margin: 20px 10px;
+}
